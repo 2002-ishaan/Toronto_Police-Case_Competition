@@ -1,0 +1,46 @@
+================================================================================
+STATION NAME MATCHING REPORT
+Generated: 2026-01-26 16:30:41
+================================================================================
+
+SUMMARY:
+  Input - Stations dataset: 73 records
+  Input - Ridership dataset: 74 records
+  Input - Unique ridership stations: 70 (after aggregating multi-line)
+  Output - Master list: 73 stations
+
+MATCHING BREAKDOWN:
+  Exact matches: 68
+  Fuzzy matches: 0
+  Stations without ridership: 5
+
+FUZZY MATCHES DETAIL:
+  (None)
+
+VENUE PROXIMITY:
+  Threshold: 2.0 km
+  Stations near any venue: 8
+  Near BMO Field: 0
+  Near Scotiabank Arena: 8
+  Near Rogers Centre: 7
+
+DATA QUALITY:
+  Stations with coordinates: 73
+  Stations with ridership: 68
+  Ridership coverage: 93.2%
+
+TOP 10 STATIONS BY RIDERSHIP:
+  1. BLOOR-YONGE: 278,174 boardings/day
+  2. ST GEORGE: 209,994 boardings/day
+  3. UNION: 136,515 boardings/day
+  4. SHEPPARD-YONGE: 92,828 boardings/day
+  5. DUNDAS: 72,406 boardings/day
+  6. FINCH: 70,775 boardings/day
+  7. EGLINTON: 60,814 boardings/day
+  8. KIPLING: 49,392 boardings/day
+  9. KENNEDY: 42,881 boardings/day
+  10. COLLEGE: 39,137 boardings/day
+
+================================================================================
+END OF REPORT
+================================================================================

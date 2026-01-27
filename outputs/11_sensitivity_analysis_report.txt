@@ -1,0 +1,22 @@
+SENSITIVITY ANALYSIS: OFFICER CAPACITY
+================================================================================
+
+PROBLEM:
+  Officer capacity (crimes per officer) is unknown
+  Current assumption: 1.5 crimes/officer (arbitrary)
+  Need to test how deployment changes with different capacities
+
+TESTED SCENARIOS:
+  Very High Load      : 107 shifts (capacity=0.5)
+  High Load           :  64 shifts (capacity=1.0)
+  Balanced ⭐          :  64 shifts (capacity=1.5)
+  Efficient           :  52 shifts (capacity=2.0)
+  Very Efficient      :  52 shifts (capacity=3.0)
+
+UNCERTAINTY RANGE: 52-107 shifts (±27)
+
+RECOMMENDATION:
+  Deploy 12 officers for Match 1 (balanced scenario)
+  Measure actual capacity during Match 1
+  Adjust Matches 2-6 based on measured capacity
+  Have reserve officers on standby for Match 1

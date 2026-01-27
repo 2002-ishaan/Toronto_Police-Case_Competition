@@ -1,0 +1,65 @@
+================================================================================
+SPATIAL JOIN SUMMARY REPORT
+Generated: 2026-01-26 16:30:59
+================================================================================
+
+CONFIGURATION:
+  Analysis period: 2018-2025
+  Transit radius: 500m
+  Total stations: 73
+
+SPATIAL JOIN RESULTS:
+  Total crimes analyzed: 272,003
+  Matched to stations: 60,369 (22.2%)
+  Not near any station: 211,634
+  Stations with crimes: 73/73
+
+DISTANCE STATISTICS (matched crimes):
+  Mean distance: 241.6m
+  Median distance: 244.4m
+  Maximum distance: 499.8m
+
+TOP 15 STATIONS BY CRIME COUNT:
+  1. DUNDAS: 3,568 crimes
+  2. COLLEGE: 3,234 crimes
+  3. QUEEN: 3,063 crimes
+  4. WELLESLEY: 2,428 crimes
+  5. BLOOR-YONGE: 2,071 crimes
+  6. UNION: 2,009 crimes
+  7. EGLINTON: 1,690 crimes
+  8. SHERBOURNE: 1,665 crimes
+  9. FINCH: 1,614 crimes
+  10. VICTORIA PARK: 1,431 crimes
+  11. ST ANDREW: 1,318 crimes
+  12. KING: 1,239 crimes
+  13. ST PATRICK: 1,223 crimes
+  14. BAY: 1,183 crimes
+  15. MAIN STREET: 1,152 crimes
+
+CRIME TYPE BREAKDOWN (transit crimes):
+  Assault: 34,532 (57.2%)
+  Break and Enter: 11,575 (19.2%)
+  Auto Theft: 6,655 (11.0%)
+  Robbery: 4,855 (8.0%)
+  Theft Over: 2,752 (4.6%)
+
+YEARLY TREND (transit crimes):
+  2018: 7,088
+  2019: 7,798
+  2020: 6,835
+  2021: 6,854
+  2022: 8,025
+  2023: 9,176
+  2024: 8,735
+  2025: 5,858
+
+VALIDATION:
+  ✓ Crime coverage: 73/73 stations have crimes
+  ✓ Match rate is reasonable: 22.2%
+  ✓ Crime distribution looks normal (max: 3,568 at DUNDAS)
+  ✓ All matched crimes within 500m threshold
+  ✓ Found 75 crimes at station premises (<10m)
+
+================================================================================
+END OF REPORT
+================================================================================

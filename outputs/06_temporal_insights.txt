@@ -1,0 +1,37 @@
+TEMPORAL ANALYSIS INSIGHTS
+================================================================================
+
+Peak hour: 00:00
+Peak day: Friday
+
+Top 20 Danger Windows:
+  DUNDAS              : 19:00-21:00
+  COLLEGE             : 22:00-00:00
+  QUEEN               : 14:00-16:00
+  WELLESLEY           : 23:00-01:00
+  BLOOR-YONGE         : 15:00-17:00
+  UNION               : 21:00-23:00
+  EGLINTON            : 18:00-20:00
+  SHERBOURNE          : 23:00-01:00
+  FINCH               : 07:00-09:00
+  VICTORIA PARK       : 18:00-20:00
+  ST ANDREW           : 00:00-02:00
+  KING                : 00:00-02:00
+  ST PATRICK          : 13:00-15:00
+  BAY                 : 15:00-17:00
+  MAIN STREET         : 22:00-00:00
+  DON MILLS           : 18:00-20:00
+  OSGOODE             : 22:00-00:00
+  MCCOWAN             : 17:00-19:00
+  SHEPPARD-YONGE      : 22:00-00:00
+  YORKDALE            : 15:00-17:00
+
+Key Insights:
+  1. Peak hour 00:00 = 3,767 crimes (6.2%)
+  2. Friday = highest crime day
+  3. Top 3 hours = 17% of all crime
+  4. Assault peaks 15:00, Robbery 21:00
+  5. 11 distinct danger windows (need multiple schedules)
+  6. Downtown peaks 00:00, Suburban 00:00 (stagger deployment)
+  7. DUNDAS danger window: 19:00-21:00 (18% of crimes)
+  8. FIFA deployment: Start 21:00 downtown (Robbery peak), shift 00:00 suburban (Assault peak)

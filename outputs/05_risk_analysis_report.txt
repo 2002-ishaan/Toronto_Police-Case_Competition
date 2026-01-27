@@ -1,0 +1,48 @@
+================================================================================
+STATION RISK ANALYSIS REPORT
+Generated: 2026-01-26 16:31:15
+================================================================================
+
+ANALYSIS SCOPE:
+  Total stations analyzed: 73
+  Total crimes analyzed: 60,369
+  Analysis period: 8 years (416 weeks)
+
+RISK DISTRIBUTION:
+  Critical  :  3 stations (  4.1%)
+  High      :  8 stations ( 11.0%)
+  Medium    : 39 stations ( 53.4%)
+  Low       : 23 stations ( 31.5%)
+
+TOP 10 HIGHEST-RISK STATIONS:
+  DUNDAS              :  3568 crimes,  8.58/week, Critical risk
+  COLLEGE             :  3234 crimes,  7.77/week, Critical risk
+  QUEEN               :  3063 crimes,  7.36/week, Critical risk
+  WELLESLEY           :  2428 crimes,  5.84/week, High risk
+  BLOOR-YONGE         :  2071 crimes,  4.98/week, High risk
+  UNION               :  2009 crimes,  4.83/week, High risk
+  EGLINTON            :  1690 crimes,  4.06/week, High risk
+  SHERBOURNE          :  1665 crimes,  4.00/week, High risk
+  FINCH               :  1614 crimes,  3.88/week, High risk
+  VICTORIA PARK       :  1431 crimes,  3.44/week, High risk
+
+VENUE PROXIMITY BREAKDOWN:
+  Downtown Events:
+    Stations: 8
+    Total crimes: 16,796
+    Event proxy crimes: 1,484
+  Other:
+    Stations: 65
+    Total crimes: 43,573
+    Event proxy crimes: 3,998
+
+KEY FINDINGS:
+  1. Top 10 stations account for 37.7% of all transit crime
+  2. 0 stations have >1.5x weekend spike
+  3. 4 stations have >30% late night concentration
+  4. 6 high-risk stations are away from major venues
+  5. Downtown has 1484 event-day crimes vs 0 in BMO corridor
+
+================================================================================
+END OF REPORT
+================================================================================

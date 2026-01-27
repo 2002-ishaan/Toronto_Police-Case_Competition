@@ -1,0 +1,29 @@
+EVENT AMPLIFICATION - CORRECTED ANALYSIS
+================================================================================
+
+METHODOLOGY IMPROVEMENT:
+  Old Method: Compare Fri/Sat evenings vs Mon-Thu evenings
+    Problem: Mixes 163 event days with 642 regular weekends
+    Result: 1.08x amplification (heavily diluted signal)
+
+  New Method: Identify anomalous high-crime days during sports seasons
+    Approach: Days with crime >1.5 SD above day-of-week baseline
+    Filter: Only Oct-May (Leafs) or Apr-Oct (Jays) months
+    Identified: 194 likely event days
+    Result: 1.56x amplification
+
+KEY FINDINGS:
+  TRUE EVENT AMPLIFICATION: 1.56x
+  Previous Estimate: 1.08x (underestimated by 45%)
+  Event Rate: 9.73 crimes/day
+  Non-Event Rate: 6.22 crimes/day
+
+STATION VARIABILITY:
+  Highest Amplification: SHEPPARD-YONGE (2.26x)
+  Lowest Amplification: ST ANDREW (1.05x)
+  Average (Top 20): 1.60x
+
+IMPLICATIONS FOR FIFA 2026:
+  Use 1.56x multiplier (not 1.08x)
+  This means higher officer requirements than previously estimated
+  Match 1 deployment should prepare for 1.56x baseline rate

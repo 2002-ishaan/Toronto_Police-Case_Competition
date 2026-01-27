@@ -1,0 +1,6 @@
+scenario,capacity,officers_per_match_HIGH,officers_per_match_MEDIUM_HIGH,officers_per_match_MEDIUM,total_shifts,cost_multiplier
+Very High Load,0.5,20,17,15,107,0.89x
+High Load,1.0,12,10,9,64,0.53x
+Balanced ⭐,1.5,12,10,9,64,0.53x
+Efficient,2.0,10,8,7,52,0.43x
+Very Efficient,3.0,10,8,7,52,0.43x

@@ -1,0 +1,5 @@
+Dataset,Total_Records,Recent_Records_2018_2025,Transit_Related,Valid_Coordinates,Coordinate_Pct,Date_Range,Quality
+Major Crime Indicators,452949,316478,10928,446269,98.5%,2000-2025,✓ Excellent
+TTC Subway Stations,73,-,-,73,100.0%,Static,✓ Excellent
+TTC Ridership,74,-,-,-,-,2023-2024,✓ Good
+FIFA 2026 Events,6,-,-,-,-,2026,✓ Excellent

@@ -1,0 +1,28 @@
+FIFA 2026 DEPLOYMENT PLAN (CORRECTED)
+================================================================================
+
+CRITICAL UPDATE:
+  Event amplification corrected from 1.08x to 2.61x
+  Officer requirements increased from 122 to 165 shifts
+
+RECOMMENDED DEPLOYMENT:
+  Match 1 (2026-06-12): 28 officers
+  Match 2 (2026-06-17): 27 officers
+  Match 3 (2026-06-20): 28 officers
+  Match 4 (2026-06-23): 27 officers
+  Match 5 (2026-06-26): 28 officers
+  Match 6 (2026-07-02): 27 officers
+
+Total: 165 officer-shifts
+
+TOP 5 PRIORITY STATIONS:
+  DUNDAS              : 5 officers (HIGH risk matches)
+  QUEEN               : 3 officers (HIGH risk matches)
+  UNION               : 3 officers (HIGH risk matches)
+  COLLEGE             : 3 officers (HIGH risk matches)
+  WELLESLEY           : 3 officers (HIGH risk matches)
+
+ADAPTIVE STRATEGY:
+  Match 1: Validate 2.61x assumption
+  Matches 2-3: Adjust based on actuals
+  Matches 4-6: Optimized deployment

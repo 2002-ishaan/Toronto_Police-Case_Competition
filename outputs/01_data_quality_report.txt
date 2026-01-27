@@ -1,0 +1,176 @@
+================================================================================
+TPS TRANSIT SAFETY CASE COMPETITION
+DATA QUALITY ASSESSMENT REPORT
+Generated: 2026-01-26 16:30:32
+================================================================================
+
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Decision: GO
+
+Datasets Validated: 4
+  1. Major Crime Indicators: 452,949 records
+  2. TTC Subway Stations: 73 stations
+  3. TTC Ridership: 74 records
+  4. FIFA 2026 Events: 6 matches
+
+Key Findings:
+  ✓ Crime data: 446,269 records with coordinates (98.5%)
+  ✓ Transit crimes: 10,928 records (statistically significant)
+  ✓ Station data: All 73 stations have names and coordinates
+  ✓ Ridership data: All 74 records complete
+  ✓ Station name matching: 86.3% overlap between datasets
+  ✓ FIFA events: All 6 matches have valid dates
+  ✓ Data coverage: 8 years (2018-2025)
+
+
+
+
+================================================================================
+DATA QUALITY REPORT: Major Crime Indicators
+================================================================================
+
+Total Records: 452,949
+Total Columns: 29
+Memory Usage: 497.34 MB
+
+Missing Values (Top 10):
+  LAT_WGS84: 6,680.0 (1.47%)
+  LONG_WGS84: 6,680.0 (1.47%)
+  OCC_YEAR: 151.0 (0.03%)
+  OCC_DOY: 151.0 (0.03%)
+  OCC_DAY: 151.0 (0.03%)
+  OCC_MONTH: 151.0 (0.03%)
+  OCC_DOW: 151.0 (0.03%)
+
+Critical Columns Check:
+  OCC_DATE: ✓
+  OCC_HOUR: ✓
+  LAT_WGS84: ✗ 6,680 nulls
+  LONG_WGS84: ✗ 6,680 nulls
+  MCI_CATEGORY: ✓
+  PREMISES_TYPE: ✓
+
+Duplicate Rows: 0
+
+
+================================================================================
+DATA QUALITY REPORT: TTC Subway Stations
+================================================================================
+
+Total Records: 73
+Total Columns: 47
+Memory Usage: 0.11 MB
+
+Missing Values (Top 10):
+  features__attributes__PT_EXTRA2: 73.0 (100.00%)
+  features__attributes__HI_NUM: 73.0 (100.00%)
+  features__attributes__HI_NUM_SUF: 73.0 (100.00%)
+  features__attributes__PT_EXTRA1: 73.0 (100.00%)
+  features__attributes__LO_NUM_SUF: 73.0 (100.00%)
+  globalIdFieldName: 73.0 (100.00%)
+  objectIdFieldName: 72.0 (98.63%)
+  geometryType: 72.0 (98.63%)
+  spatialReference__wkid: 72.0 (98.63%)
+  spatialReference__latestWkid: 72.0 (98.63%)
+
+Critical Columns Check:
+  features__attributes__PT_NAME: ✓
+  features__attributes__LATITUDE: ✓
+  features__attributes__LONGITUDE: ✓
+
+Duplicate Rows: 0
+
+
+================================================================================
+DATA QUALITY REPORT: TTC Ridership
+================================================================================
+
+Total Records: 74
+Total Columns: 3
+Memory Usage: 0.01 MB
+
+✓ No missing values detected
+
+Critical Columns Check:
+  Station: ✓
+  Line: ✓
+  Average Weekday Boardings: ✓
+
+Duplicate Rows: 0
+
+
+================================================================================
+DATA QUALITY REPORT: FIFA 2026 Events
+================================================================================
+
+Total Records: 6
+Total Columns: 6
+Memory Usage: 0.00 MB
+
+✓ No missing values detected
+
+Critical Columns Check:
+  event_date: ✓
+  venue: ✓
+  start_time: ✓
+  end_time: ✓
+
+Duplicate Rows: 0
+
+
+================================================================================
+DETAILED STATISTICS
+================================================================================
+
+CRIME DATA FOCUS (2018-2025):
+  Total records: 316,478
+  Transit-related: 10,928 (3.45%)
+  With valid coordinates: 311,798
+
+Crime Type Breakdown:
+    Assault: 167,413
+    Auto Theft: 59,778
+    Break and Enter: 53,942
+    Robbery: 23,905
+    Theft Over: 11,440
+
+Yearly Distribution:
+    2018: 37,602
+    2019: 40,200
+    2020: 35,352
+    2021: 34,970
+    2022: 41,823
+    2023: 49,432
+    2024: 46,411
+    2025: 30,688
+
+
+STATION DATA:
+  Total unique stations (stations.csv): 73
+  Total unique stations (ridership.csv): 70
+  Stations in both datasets: 63
+  Match rate: 86.3%
+
+
+FIFA 2026:
+  Total matches: 6
+  Date range: 2026-06-12 00:00:00 to 2026-07-02 00:00:00
+  Venue: BMO Field (Exhibition Place)
+
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. Standardize station names across datasets (Prompt 2)
+2. Perform spatial join: crimes → stations (Prompt 3)
+3. Engineer temporal features (Prompt 4)
+4. Calculate station risk profiles (Prompt 5)
+5. Build ML prediction model (Prompts 8-9)
+6. Generate FIFA 2026 deployment plan (Prompt 10)
+
+================================================================================
+END OF REPORT
+================================================================================
