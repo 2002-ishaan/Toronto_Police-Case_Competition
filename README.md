@@ -121,7 +121,9 @@ For each of the 6 FIFA matches (Jun 12 – Jul 2, 2026), the planner outputs the
 
 **Deployment Formula:**
 
-$$\text{officers} = \left\lceil \frac{\text{event\_rate} \times \text{match\_risk} \times \text{fifa\_factor}}{\text{capacity}} \right\rceil$$
+```
+officers = ceil( (event_rate × match_risk × fifa_factor) / capacity )
+```
 
 ---
 
