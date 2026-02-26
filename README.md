@@ -6,8 +6,18 @@
 
 *An end-to-end data science system built on 8 years of real crime data — delivering a station-by-station, match-by-match officer deployment plan for all 6 FIFA 2026 World Cup matches in Toronto.*
 
+---
+
+## 🚀 [**VIEW LIVE DASHBOARD →**](https://tps-case-comp-3prwd2cbnc2gak7tnwl9bg.streamlit.app/)
+
+**[https://tps-case-comp-3prwd2cbnc2gak7tnwl9bg.streamlit.app/](https://tps-case-comp-3prwd2cbnc2gak7tnwl9bg.streamlit.app/)**
+
+*Interactive geospatial risk maps · Station risk profiles · FIFA 2026 match-by-match deployment planner*
+
+---
+
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://tps-case-comp-3prwd2cbnc2gak7tnwl9bg.streamlit.app/)
 [![Folium](https://img.shields.io/badge/Folium-Geospatial_Maps-77B829?style=flat&logo=folium&logoColor=white)](https://python-visualization.github.io/folium/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data_Processing-150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org)
 [![Plotly](https://img.shields.io/badge/Plotly-Interactive_Charts-3F4F75?style=flat&logo=plotly&logoColor=white)](https://plotly.com)
@@ -320,5 +330,7 @@ Developed for the **Toronto Police Service Case Competition**. Crime data source
 316,478 Crimes &nbsp;·&nbsp; 73 TTC Stations &nbsp;·&nbsp; 8 Years of Data &nbsp;·&nbsp; FIFA 2026 Ready
 
 *Built with Python · Streamlit · Folium · Plotly · Pandas*
+
+🚀 **[Live Dashboard](https://tps-case-comp-3prwd2cbnc2gak7tnwl9bg.streamlit.app/)** — click to explore
 
 </div>
